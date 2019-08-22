@@ -12,6 +12,8 @@ namespace test.p001_MultiplesOf3And5 {
         [InlineData (5, 3)]
         [InlineData (6, 8)]
         [InlineData (7, 14)]
+        [InlineData (10, 23)]
+        [InlineData (1000, 233168)]
         public void GetAllMultiplesBelowEdge (int edge, int expected) {
             //Arrange
             MultiplesOf3And5 multiplesOf3And5 = new MultiplesOf3And5 ();
